@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0460B52625483C3F00DB14A7 /* CardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B52525483C3F00DB14A7 /* CardType.swift */; };
+		0460B52B25483CAA00DB14A7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B52A25483CAA00DB14A7 /* Card.swift */; };
+		0460B53025483DC200DB14A7 /* TransactionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B52F25483DC200DB14A7 /* TransactionItem.swift */; };
+		0460B53525483EA000DB14A7 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B53425483EA000DB14A7 /* Expense.swift */; };
 		049A508525482BF90012456A /* mybankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A508425482BF90012456A /* mybankApp.swift */; };
 		049A508725482BF90012456A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A508625482BF90012456A /* ContentView.swift */; };
 		049A508925482BFD0012456A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A508825482BFD0012456A /* Assets.xcassets */; };
@@ -33,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0460B52525483C3F00DB14A7 /* CardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardType.swift; sourceTree = "<group>"; };
+		0460B52A25483CAA00DB14A7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0460B52F25483DC200DB14A7 /* TransactionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItem.swift; sourceTree = "<group>"; };
+		0460B53425483EA000DB14A7 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		049A508125482BF90012456A /* mybank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mybank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049A508425482BF90012456A /* mybankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mybankApp.swift; sourceTree = "<group>"; };
 		049A508625482BF90012456A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +98,10 @@
 		0460B51F2548377700DB14A7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0460B52525483C3F00DB14A7 /* CardType.swift */,
+				0460B52A25483CAA00DB14A7 /* Card.swift */,
+				0460B52F25483DC200DB14A7 /* TransactionItem.swift */,
+				0460B53425483EA000DB14A7 /* Expense.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -299,8 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0460B53525483EA000DB14A7 /* Expense.swift in Sources */,
 				049A508725482BF90012456A /* ContentView.swift in Sources */,
 				049A508525482BF90012456A /* mybankApp.swift in Sources */,
+				0460B52625483C3F00DB14A7 /* CardType.swift in Sources */,
+				0460B53025483DC200DB14A7 /* TransactionItem.swift in Sources */,
+				0460B52B25483CAA00DB14A7 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
