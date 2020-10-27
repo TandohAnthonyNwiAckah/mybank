@@ -2,7 +2,7 @@
 //  mybankUITests.swift
 //  mybankUITests
 //
-//  Created by mac on 10/27/20.
+//  Created by Tanacom on 10/27/20.
 //
 
 import XCTest
