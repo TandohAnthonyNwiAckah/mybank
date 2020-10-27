@@ -12,7 +12,7 @@ struct Expense:Identifiable{
     let id = UUID()
     let month:String
     let amount:Float
-    let selected:Bool = false
+    var selected:Bool = false
     
     
     
