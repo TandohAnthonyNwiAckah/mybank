@@ -72,6 +72,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0460B51D254836C100DB14A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				049A508625482BF90012456A /* ContentView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0460B51E254836ED00DB14A7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		0460B51F2548377700DB14A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0460B5202548379E00DB14A7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		0460B521254837E200DB14A7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				049A508825482BFD0012456A /* Assets.xcassets */,
+				049A508D25482BFD0012456A /* Info.plist */,
+				049A508A25482BFD0012456A /* Preview Content */,
+				049A508425482BF90012456A /* mybankApp.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
 		049A507825482BF90012456A = {
 			isa = PBXGroup;
 			children = (
@@ -95,11 +135,11 @@
 		049A508325482BF90012456A /* mybank */ = {
 			isa = PBXGroup;
 			children = (
-				049A508425482BF90012456A /* mybankApp.swift */,
-				049A508625482BF90012456A /* ContentView.swift */,
-				049A508825482BFD0012456A /* Assets.xcassets */,
-				049A508D25482BFD0012456A /* Info.plist */,
-				049A508A25482BFD0012456A /* Preview Content */,
+				0460B521254837E200DB14A7 /* App */,
+				0460B5202548379E00DB14A7 /* Services */,
+				0460B51F2548377700DB14A7 /* Models */,
+				0460B51E254836ED00DB14A7 /* Utils */,
+				0460B51D254836C100DB14A7 /* Views */,
 			);
 			path = mybank;
 			sourceTree = "<group>";
