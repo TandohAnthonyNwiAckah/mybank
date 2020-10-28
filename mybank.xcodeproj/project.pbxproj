@@ -20,6 +20,8 @@
 		0460B56025497A6D00DB14A7 /* TransactionListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B55F25497A6D00DB14A7 /* TransactionListRow.swift */; };
 		0460B56525497E4500DB14A7 /* TransactionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B56425497E4500DB14A7 /* TransactionListView.swift */; };
 		0460B56A2549809100DB14A7 /* ListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B5692549809100DB14A7 /* ListHeader.swift */; };
+		0460B5702549856B00DB14A7 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B56F2549856B00DB14A7 /* ProgressView.swift */; };
+		0460B5752549874300DB14A7 /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B5742549874300DB14A7 /* CardInfoView.swift */; };
 		049A508525482BF90012456A /* mybankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A508425482BF90012456A /* mybankApp.swift */; };
 		049A508725482BF90012456A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A508625482BF90012456A /* ContentView.swift */; };
 		049A508925482BFD0012456A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A508825482BFD0012456A /* Assets.xcassets */; };
@@ -59,6 +61,8 @@
 		0460B55F25497A6D00DB14A7 /* TransactionListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListRow.swift; sourceTree = "<group>"; };
 		0460B56425497E4500DB14A7 /* TransactionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListView.swift; sourceTree = "<group>"; };
 		0460B5692549809100DB14A7 /* ListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeader.swift; sourceTree = "<group>"; };
+		0460B56F2549856B00DB14A7 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		0460B5742549874300DB14A7 /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
 		049A508125482BF90012456A /* mybank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mybank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049A508425482BF90012456A /* mybankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mybankApp.swift; sourceTree = "<group>"; };
 		049A508625482BF90012456A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 		0460B51D254836C100DB14A7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0460B56E2549853300DB14A7 /* CardDetails */,
 				049A508625482BF90012456A /* ContentView.swift */,
 				0460B5502548B62D00DB14A7 /* CardView.swift */,
 				0460B55525496FC900DB14A7 /* PagerView.swift */,
@@ -149,6 +154,15 @@
 				049A508425482BF90012456A /* mybankApp.swift */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		0460B56E2549853300DB14A7 /* CardDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0460B56F2549856B00DB14A7 /* ProgressView.swift */,
+				0460B5742549874300DB14A7 /* CardInfoView.swift */,
+			);
+			name = CardDetails;
 			sourceTree = "<group>";
 		};
 		049A507825482BF90012456A = {
@@ -346,11 +360,13 @@
 				0460B56525497E4500DB14A7 /* TransactionListView.swift in Sources */,
 				0460B53A2548419D00DB14A7 /* DummyData.swift in Sources */,
 				0460B5512548B62D00DB14A7 /* CardView.swift in Sources */,
+				0460B5752549874300DB14A7 /* CardInfoView.swift in Sources */,
 				0460B52625483C3F00DB14A7 /* CardType.swift in Sources */,
 				0460B54425487D8300DB14A7 /* CardManager.swift in Sources */,
 				0460B55B2549786100DB14A7 /* MenuHeaderView.swift in Sources */,
 				0460B53025483DC200DB14A7 /* TransactionItem.swift in Sources */,
 				0460B52B25483CAA00DB14A7 /* Card.swift in Sources */,
+				0460B5702549856B00DB14A7 /* ProgressView.swift in Sources */,
 				0460B56A2549809100DB14A7 /* ListHeader.swift in Sources */,
 				0460B53F2548461500DB14A7 /* ColorConstant.swift in Sources */,
 			);
