@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct CardInfoView: View {
+    
     var body: some View {
      
         

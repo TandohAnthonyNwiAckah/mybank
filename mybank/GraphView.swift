@@ -13,8 +13,7 @@ struct GraphView: View {
     
     @State var startAnimation = false
     
-    
-    
+
     var body: some View {
         
         VStack {
@@ -76,7 +75,7 @@ struct GraphView: View {
 }
 
 
-
+}
 
 struct ExpenseLineGraph : Shape {
     
@@ -215,10 +214,6 @@ struct ExpenseBarGraph : View {
 
 
 
-
-
-
-
 struct GraphBackgroundView : View{
     
     var body: some View {
@@ -267,5 +262,4 @@ struct Line : Shape{
     
     
 }
-
 

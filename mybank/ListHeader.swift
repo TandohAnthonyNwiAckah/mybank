@@ -30,8 +30,6 @@ struct ListHeader: View {
     }
     
     
-    
-    
-    
+
 }
 

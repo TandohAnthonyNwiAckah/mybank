@@ -15,8 +15,6 @@ struct TransactionListView: View {
     @ObservedObject var cardManager : CardManager
      
     
-    
-    
     var body: some View {
   
         ScrollView {

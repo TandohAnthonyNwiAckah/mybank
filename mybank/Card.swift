@@ -14,7 +14,7 @@ struct Card:Identifiable{
     let number:String
     let type:CardType
     let company:String
-    let selected:Bool = false
+    var selected:Bool = false
     
     
     func getLastFourDigits() -> String {

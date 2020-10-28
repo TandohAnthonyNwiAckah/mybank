@@ -21,8 +21,6 @@ class CardManager : ObservableObject{
      var lastSelectedExpense = -1
     
     
-    
-    
     func getUniqueDates(for cardNumber:String) -> [String] {
         
         var dates: [String] = []
@@ -110,7 +108,6 @@ class CardManager : ObservableObject{
     }
     
     
-    
     func selectedExpense(expense: Expense){
         
         if let foundIndex = expensesValue.firstIndex(where: {$0.id == expense.id}){
@@ -159,12 +156,6 @@ class CardManager : ObservableObject{
         return heights
         
     }
-    
-    
-    
-    
-    
-    
     
     
 
