@@ -14,6 +14,7 @@
 		0460B53A2548419D00DB14A7 /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B5392548419D00DB14A7 /* DummyData.swift */; };
 		0460B53F2548461500DB14A7 /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B53E2548461500DB14A7 /* ColorConstant.swift */; };
 		0460B54425487D8300DB14A7 /* CardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B54325487D8300DB14A7 /* CardManager.swift */; };
+		0460B5512548B62D00DB14A7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0460B5502548B62D00DB14A7 /* CardView.swift */; };
 		049A508525482BF90012456A /* mybankApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A508425482BF90012456A /* mybankApp.swift */; };
 		049A508725482BF90012456A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A508625482BF90012456A /* ContentView.swift */; };
 		049A508925482BFD0012456A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A508825482BFD0012456A /* Assets.xcassets */; };
@@ -47,6 +48,7 @@
 		0460B5392548419D00DB14A7 /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
 		0460B53E2548461500DB14A7 /* ColorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		0460B54325487D8300DB14A7 /* CardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardManager.swift; sourceTree = "<group>"; };
+		0460B5502548B62D00DB14A7 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		049A508125482BF90012456A /* mybank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mybank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049A508425482BF90012456A /* mybankApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mybankApp.swift; sourceTree = "<group>"; };
 		049A508625482BF90012456A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				049A508625482BF90012456A /* ContentView.swift */,
+				0460B5502548B62D00DB14A7 /* CardView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				049A508725482BF90012456A /* ContentView.swift in Sources */,
 				049A508525482BF90012456A /* mybankApp.swift in Sources */,
 				0460B53A2548419D00DB14A7 /* DummyData.swift in Sources */,
+				0460B5512548B62D00DB14A7 /* CardView.swift in Sources */,
 				0460B52625483C3F00DB14A7 /* CardType.swift in Sources */,
 				0460B54425487D8300DB14A7 /* CardManager.swift in Sources */,
 				0460B53025483DC200DB14A7 /* TransactionItem.swift in Sources */,
