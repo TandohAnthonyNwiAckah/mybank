@@ -26,7 +26,6 @@ struct GraphView: View {
                     
                     ExpenseBarGraph(cardManager:cardManager, height: geo.size.height)
                     
-                    
                     ExpenseLineGraph(data: cardManager.getExpenseDateBasedOnHeight(maxHeight: geo.size.height - 40))
                 
                         .trim(to : startAnimation ? 1 : 0)
@@ -39,21 +38,15 @@ struct GraphView: View {
                     
                 }
                 .onAppear {
-                    
                     withAnimation {
-                        
                         startAnimation = true
                         
                     }
                 }
             }
-           
             .padding(.leading,20)
-            
             .padding(.trailing,20)
-            
-            
-            
+        
             HStack {
                 
                 ForEach(expenses){ expense in
@@ -66,16 +59,13 @@ struct GraphView: View {
         }
             .foregroundColor(.white)
         
-        
     }
     
-    
-    
-    
+    }
+
 }
 
 
-}
 
 struct ExpenseLineGraph : Shape {
     
@@ -214,7 +204,7 @@ struct ExpenseBarGraph : View {
 
 
 
-struct GraphBackgroundView : View{
+struct GraphBackgroundView : View {
     
     var body: some View {
         
@@ -247,7 +237,7 @@ struct GraphBackgroundView : View{
 
 
 
-struct Line : Shape{
+struct Line : Shape {
     
     func path(in rect: CGRect) -> Path {
         

@@ -29,19 +29,22 @@ struct PagerView<Content:View>: View {
         
     }
     
-    
-    
+
     var body: some View {
         
         GeometryReader {geo in
+            
             VStack (spacing :24){
+                
                 HStack(spacing:0){
+                    
                     self.content.frame(width:geo.size.width)
                 }
+                
                 .frame(width: geo.size.width, alignment: .leading)
                 .offset(x: -CGFloat(self.currentIndex) * geo.size.width)
                 .offset(x: self.translation)
-                animation(.interactiveSpring())
+                .animation(.interactiveSpring())
                     .gesture(DragGesture().updating(self.$translation, body: { (value,state , _) in
                         
                         state = value.translation.width
@@ -68,22 +71,15 @@ struct PagerView<Content:View>: View {
                             
                             .scaleEffect(index == self.currentIndex ? 0.8 : 0.4)
                         
-                        
-                        
                     }
                     
                 }
                 
-                
-                
-                
             }
             
+            
         }
-        
     }
-    
-    
     
     
 }

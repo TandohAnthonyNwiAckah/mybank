@@ -29,46 +29,41 @@ struct ContentView: View {
                 TopBarView()
                 
                 PagerView(pageCount: cards.count, currentIndex: $currentPage){
-                    
+
                     ForEach(cards){ card in
-                        
+
                         CardView(card: card)
                             .onTapGesture {
-                                
                                 withAnimation{
                                     selectedCard = card
-                            
+
                                     selectedCard.selected = true
-                                    
-                                }
-                            }
-                    }
-                }
-                
+
+                                }}}}
+
                 .frame(height:240)
                 .opacity(startAnimation ? 1 : 0)
                 .animation(Animation.easeIn(duration: 0.5))
-                
+
                 
                 Group {
-                    
                     MenuHeaderView(title: "Transactions",imageName: "arrow.up.arrow.down")
-                    
-                    
+
                     TransactionListView(currentIndex: $currentPage, cardManager:cardManager)
                 }
+                
                 .opacity(startAnimation ? 1 : 0)
                 .animation(Animation.easeIn(duration: 0.5).delay(1.0))
-                
+
                Spacer()
-                
+
             }
             
-            if selectedCard.selected {
-                
+
+           if selectedCard.selected {
                 CardDetailView(card: $selectedCard, cardManager:cardManager)
-                
-            }
+           }
+            
         }
         
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
@@ -85,6 +80,8 @@ struct ContentView: View {
 }
 
 
+
+ // Top Bar View.
 struct  TopBarView : View {
     
     var body: some View
